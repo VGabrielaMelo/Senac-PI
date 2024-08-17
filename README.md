@@ -4,6 +4,14 @@
 
 Este é um projeto de Kanban desenvolvido para ajudar a organizar tarefas de maneira visual e intuitiva. O sistema permite a criação, edição e exclusão de tarefas, além de oferecer um quadro de post-its para anotações rápidas. O projeto também inclui uma funcionalidade de login para garantir que apenas usuários autenticados possam acessar suas tarefas. Todo o sistema é sustentado por um banco de dados para armazenar informações de maneira segura e persistente.
 
+## Status do Projeto
+
+Em desenvolvimento
+
+## Time de Desenvolvedores
+
+- [Gabriela Melo] - [Desenvolvedora]
+
 ## Funcionalidades
 
 - **Adicionar Tarefas**: Crie novas tarefas e organize-as em diferentes colunas (como "A Fazer", "Em Progresso", "Concluído").

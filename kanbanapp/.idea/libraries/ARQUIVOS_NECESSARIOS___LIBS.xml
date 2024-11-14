@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ARQUIVOS NECESSARIOS - LIBS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ARQUIVOS NECESSARIOS - LIBS/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARQUIVOS NECESSARIOS - LIBS/org.json-chargebee-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARQUIVOS NECESSARIOS - LIBS/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARQUIVOS NECESSARIOS - LIBS/protobuf-java-3.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ARQUIVOS NECESSARIOS - LIBS/gson-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

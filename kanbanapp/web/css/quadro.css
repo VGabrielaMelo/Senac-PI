@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #DDD;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.novaTarefa {
+    border: none;
+    background-color: mediumpurple;
+    color: #FFF;
+    font-size: 14px;
+    padding: 9px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container .column {
+    width: 250px;
+    height: 640px;
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .column .head {
+    background-color: mediumpurple;
+    color: #FFF;
+    padding: 14px;
+    text-align: center;
+}
+
+.container .column .body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.container .column .body .cards-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .column .body .add-btn {
+    background-color: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .column .body .card {
+    background-color: #EEE;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.container .column .body .card .info {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Modal Update Styling */
+#modal-update {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-update .box {
+    background-color: #FFF;
+    width: 400px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#modal-update .box .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+}
+
+#modal-update .box .head span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+#modal-update .box .head button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #333;
+}
+
+#modal-update .box .form .form-group {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#modal-update .box .form {
+    padding: 20px;
+}
+
+#modal-update .box .form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#modal-update .box .form textarea,
+#modal-update .box .form select,
+#modal-update .box .form input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #000;
+    resize: none;
+}
+
+#modal-update .box .form button {
+    display: block;
+    margin-left: auto;
+}
+
+/* Original Modal (if any) styling (for fallback) */
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal .box {
+    background-color: #FFF;
+    width: 400px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#modal .box .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+}
+
+#modal .box .head span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+#modal .box .head button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #333;
+}
+
+#modal .box .form .form-group {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#modal .box .form {
+    padding: 20px;
+}
+
+#modal .box .form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#modal .box .form textarea,
+#modal .box .form select,
+#modal .box .form input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #000;
+    resize: none;
+}
+
+#modal .box .form button {
+    display: block;
+    margin-left: auto;
+}

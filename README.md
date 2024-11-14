@@ -17,14 +17,13 @@ Em desenvolvimento
 - **Adicionar Tarefas**: Crie novas tarefas e organize-as em diferentes colunas (como "A Fazer", "Em Progresso", "Concluído").
 - **Editar Tarefas**: Atualize informações de uma tarefa existente.
 - **Deletar Tarefas**: Remova tarefas desnecessárias ou concluídas.
-- **Quadro de Post-its**: Adicione anotações rápidas em um quadro de post-its, útil para lembretes e notas gerais.
 - **Login de Usuário**: Funcionalidade de login para garantir a segurança e personalização das tarefas de cada usuário.
 - **Banco de Dados**: Armazena todas as informações de tarefas, usuários e anotações de maneira segura e persistente.
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: Java
-- **Backend**: Java, Spring Boot
+- **Frontend**: CSS
+- **Backend**: Java, Java Script
 - **Banco de Dados**: MySQL
 
 ## Instalação
